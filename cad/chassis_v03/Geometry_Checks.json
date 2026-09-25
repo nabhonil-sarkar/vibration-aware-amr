@@ -1,0 +1,132 @@
+{
+  "status": "PROTOTYPE NOT RELEASED FOR LOAD BEARING USE",
+  "parameters": {
+    "length": 340.0,
+    "width": 270.0,
+    "floor": 6.0,
+    "rim_width": 6.0,
+    "rim_height": 14.0,
+    "rib_width": 6.0,
+    "rib_height": 8.0,
+    "seam_gap": 0.4,
+    "m4_clearance": 4.5,
+    "m3_clearance": 3.4,
+    "joint_thickness": 6.0,
+    "provisional_bed_x": 220.0,
+    "provisional_bed_y": 220.0
+  },
+  "parts": [
+    {
+      "part": "01_Front_Left_Panel",
+      "bounds_mm": [
+        169.8,
+        134.8,
+        20.0
+      ],
+      "volume_cm3": 160.045,
+      "solid_valid": true,
+      "stl_watertight": true,
+      "stl_components": 1
+    },
+    {
+      "part": "02_Front_Right_Panel",
+      "bounds_mm": [
+        169.8,
+        134.8,
+        20.0
+      ],
+      "volume_cm3": 160.045,
+      "solid_valid": true,
+      "stl_watertight": true,
+      "stl_components": 1
+    },
+    {
+      "part": "03_Rear_Left_Panel",
+      "bounds_mm": [
+        169.8,
+        134.8,
+        20.0
+      ],
+      "volume_cm3": 159.963,
+      "solid_valid": true,
+      "stl_watertight": true,
+      "stl_components": 1
+    },
+    {
+      "part": "04_Rear_Right_Panel",
+      "bounds_mm": [
+        169.8,
+        134.8,
+        20.0
+      ],
+      "volume_cm3": 159.963,
+      "solid_valid": true,
+      "stl_watertight": true,
+      "stl_components": 1
+    },
+    {
+      "part": "05_Transverse_Joint_Plate",
+      "bounds_mm": [
+        80.0,
+        32.0,
+        6.0
+      ],
+      "volume_cm3": 14.932,
+      "solid_valid": true,
+      "stl_watertight": true,
+      "stl_components": 1
+    },
+    {
+      "part": "06_Transverse_Joint_Plate",
+      "bounds_mm": [
+        80.0,
+        32.0,
+        6.0
+      ],
+      "volume_cm3": 14.932,
+      "solid_valid": true,
+      "stl_watertight": true,
+      "stl_components": 1
+    },
+    {
+      "part": "07_Longitudinal_Joint_Plate",
+      "bounds_mm": [
+        32.0,
+        80.0,
+        6.0
+      ],
+      "volume_cm3": 14.932,
+      "solid_valid": true,
+      "stl_watertight": true,
+      "stl_components": 1
+    },
+    {
+      "part": "08_Longitudinal_Joint_Plate",
+      "bounds_mm": [
+        32.0,
+        80.0,
+        6.0
+      ],
+      "volume_cm3": 14.932,
+      "solid_valid": true,
+      "stl_watertight": true,
+      "stl_components": 1
+    },
+    {
+      "part": "09_Rear_Castor_Adapter_Blank",
+      "bounds_mm": [
+        54.0,
+        64.0,
+        6.0
+      ],
+      "volume_cm3": 20.272,
+      "solid_valid": true,
+      "stl_watertight": true,
+      "stl_components": 1
+    }
+  ],
+  "assembly_solids_after_STEP_reimport": 9,
+  "overlapping_pairs": [],
+  "checks": "Geometry and file integrity only. Not structural FEA or physical proof testing.",
+  "total_solid_volume_cm3": 720.02
+}

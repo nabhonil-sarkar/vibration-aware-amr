@@ -1,0 +1,53 @@
+﻿Purpose,X mm,Y mm,Diameter mm,Status
+X seam joints,-24,-79,4.5,Verify hardware fit; joint geometry matched internally
+X seam joints,-24,-61,4.5,Verify hardware fit; joint geometry matched internally
+X seam joints,24,-79,4.5,Verify hardware fit; joint geometry matched internally
+X seam joints,24,-61,4.5,Verify hardware fit; joint geometry matched internally
+X seam joints,-24,61,4.5,Verify hardware fit; joint geometry matched internally
+X seam joints,-24,79,4.5,Verify hardware fit; joint geometry matched internally
+X seam joints,24,61,4.5,Verify hardware fit; joint geometry matched internally
+X seam joints,24,79,4.5,Verify hardware fit; joint geometry matched internally
+Y seam joints,-84,-24,4.5,Verify hardware fit; joint geometry matched internally
+Y seam joints,-84,24,4.5,Verify hardware fit; joint geometry matched internally
+Y seam joints,-66,-24,4.5,Verify hardware fit; joint geometry matched internally
+Y seam joints,-66,24,4.5,Verify hardware fit; joint geometry matched internally
+Y seam joints,66,-24,4.5,Verify hardware fit; joint geometry matched internally
+Y seam joints,66,24,4.5,Verify hardware fit; joint geometry matched internally
+Y seam joints,84,-24,4.5,Verify hardware fit; joint geometry matched internally
+Y seam joints,84,24,4.5,Verify hardware fit; joint geometry matched internally
+Castor adapter fixing,-150,-22,4.5,Verify hardware fit; joint geometry matched internally
+Castor adapter fixing,-150,22,4.5,Verify hardware fit; joint geometry matched internally
+Castor adapter fixing,-120,-22,4.5,Verify hardware fit; joint geometry matched internally
+Castor adapter fixing,-120,22,4.5,Verify hardware fit; joint geometry matched internally
+Payload riser provision,-125,-72,4.5,Verify hardware fit; joint geometry matched internally
+Payload riser provision,-125,72,4.5,Verify hardware fit; joint geometry matched internally
+Payload riser provision,55,-72,4.5,Verify hardware fit; joint geometry matched internally
+Payload riser provision,55,72,4.5,Verify hardware fit; joint geometry matched internally
+General mounting,-140,-90,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,-140,-45,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,-140,45,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,-140,90,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,-100,-90,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,-100,-45,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,-100,45,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,-100,90,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,-60,-90,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,-60,-45,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,-60,45,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,-60,90,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,60,-90,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,60,-45,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,60,45,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,60,90,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,100,-90,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,100,-45,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,100,45,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,100,90,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,140,-90,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,140,-45,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,140,45,3.4,Verify hardware fit; joint geometry matched internally
+General mounting,140,90,3.4,Verify hardware fit; joint geometry matched internally
+Rigid sensor bridge provision,85,-67,3.4,Verify hardware fit; joint geometry matched internally
+Rigid sensor bridge provision,85,67,3.4,Verify hardware fit; joint geometry matched internally
+Rigid sensor bridge provision,145,-67,3.4,Verify hardware fit; joint geometry matched internally
+Rigid sensor bridge provision,145,67,3.4,Verify hardware fit; joint geometry matched internally

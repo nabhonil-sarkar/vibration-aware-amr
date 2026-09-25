@@ -1,0 +1,8 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Nabhonil Sarkar",
+  "description": "Creates a provisional component-envelope assembly for the vibration-aware AMR project.",
+  "supportedOS": "windows|mac",
+  "editEnabled": true
+}

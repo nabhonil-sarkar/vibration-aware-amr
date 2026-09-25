@@ -1,0 +1,2 @@
+ChassisLength_m,ChassisWidth_m,Wheelbase_m,TrackWidth_m,WheelRadius_m,TurnEfficiency,MaximumLinearSpeed_mps,MaximumSkidYawRate_radps,CommandedTravelDistance_m,FinalSkidX_m,FinalSkidY_m,FinalIdealHeading_deg,FinalSkidHeading_deg
+0.34,0.27,0.25,0.27,0.035,0.8,0.25,0.948148148148148,3.4375,0.88717996546654,-0.639580041119053,186.741799894493,149.393439915593

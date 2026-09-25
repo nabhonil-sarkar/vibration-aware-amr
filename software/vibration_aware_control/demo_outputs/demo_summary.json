@@ -1,0 +1,7 @@
+{
+  "data_type": "SYNTHETIC open-loop input; no physical vibration reduction measured",
+  "maximum_filtered_rms_m_s2": 1.1614657628949128,
+  "minimum_speed_scale": 0.25,
+  "dropout_stop_seen": true,
+  "remains_stopped_after_dropout": true
+}

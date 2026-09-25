@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+install/
+log/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Thumbs.db
+.DS_Store
+~$*
+*.asv
+*.slxc
+slprj/
+cad/concept_v02/source/exports/
+# Keep raw future trial recordings outside Git; publish selected summaries.
+*.db3
+*.mcap
+*.bag
+# Academic submissions and personal records remain local.
+private/
+academic_submissions/

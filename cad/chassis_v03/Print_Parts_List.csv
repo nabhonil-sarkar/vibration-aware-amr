@@ -1,0 +1,11 @@
+﻿Part,Quantity,X mm,Y mm,Z mm,Status
+01_Front_Left_Panel,1,169.8,134.8,20.0,Provisional prototype
+02_Front_Right_Panel,1,169.8,134.8,20.0,Provisional prototype
+03_Rear_Left_Panel,1,169.8,134.8,20.0,Provisional prototype
+04_Rear_Right_Panel,1,169.8,134.8,20.0,Provisional prototype
+05_Transverse_Joint_Plate,1,80.0,32.0,6.0,Provisional prototype
+06_Transverse_Joint_Plate,1,80.0,32.0,6.0,Provisional prototype
+07_Longitudinal_Joint_Plate,1,32.0,80.0,6.0,Provisional prototype
+08_Longitudinal_Joint_Plate,1,32.0,80.0,6.0,Provisional prototype
+09_Rear_Castor_Adapter_Blank,1,54.0,64.0,6.0,Provisional prototype
+00_Hole_and_Slot_Fit_Coupon,1,70,32,6,Print and measure first

@@ -1,0 +1,29 @@
+vibration_controller:
+  ros__parameters:
+    # Illustrative bench-test settings, NOT validated fragile-payload limits.
+    adaptive: true
+    stamped_commands: true
+    imu_frame: payload_imu_link
+    command_frame: base_link
+    max_header_age_s: 0.15
+    highpass_hz: 1.0
+    lowpass_hz: 20.0
+    window_s: 0.5
+    warmup_s: 1.5
+    minimum_samples: 30
+    imu_timeout_s: 0.10
+    command_timeout_s: 0.30
+    loop_timeout_s: 0.10
+    rms_release: 0.20
+    rms_enter: 0.35
+    rms_full: 1.00
+    minimum_scale: 0.25
+    scale_fall_per_s: 2.0
+    scale_rise_per_s: 0.20
+    max_linear: 0.30
+    max_angular: 0.60
+    max_linear_accel: 0.25
+    max_angular_accel: 0.60
+    max_linear_jerk: 1.0
+    max_angular_jerk: 2.0
+    max_accel_component: 60.0
