@@ -1,0 +1,11 @@
+﻿Part,Quantity,X_mm,Y_mm,Z_mm,Print_order,Orientation,STL_file,3MF_file
+00_Hole_and_Slot_Fit_Coupon,1,70.0,32.0,6.0,FIRST: fit coupon,Supplied flat bottom on bed; no scaling,STL/00_Hole_and_Slot_Fit_Coupon.stl,3MF_Models/00_Hole_and_Slot_Fit_Coupon.3mf
+01_Front_Left_Panel,1,169.8,134.8,20.0,AFTER coupon check: chassis prototype,Supplied flat bottom on bed; no scaling,STL/01_Front_Left_Panel.stl,3MF_Models/01_Front_Left_Panel.3mf
+02_Front_Right_Panel,1,169.8,134.8,20.0,AFTER coupon check: chassis prototype,Supplied flat bottom on bed; no scaling,STL/02_Front_Right_Panel.stl,3MF_Models/02_Front_Right_Panel.3mf
+03_Rear_Left_Panel,1,169.8,134.8,20.0,AFTER coupon check: chassis prototype,Supplied flat bottom on bed; no scaling,STL/03_Rear_Left_Panel.stl,3MF_Models/03_Rear_Left_Panel.3mf
+04_Rear_Right_Panel,1,169.8,134.8,20.0,AFTER coupon check: chassis prototype,Supplied flat bottom on bed; no scaling,STL/04_Rear_Right_Panel.stl,3MF_Models/04_Rear_Right_Panel.3mf
+05_Transverse_Joint_Plate,1,80.0,32.0,6.0,AFTER coupon check: chassis prototype,Supplied flat bottom on bed; no scaling,STL/05_Transverse_Joint_Plate.stl,3MF_Models/05_Transverse_Joint_Plate.3mf
+06_Transverse_Joint_Plate,1,80.0,32.0,6.0,AFTER coupon check: chassis prototype,Supplied flat bottom on bed; no scaling,STL/06_Transverse_Joint_Plate.stl,3MF_Models/06_Transverse_Joint_Plate.3mf
+07_Longitudinal_Joint_Plate,1,32.0,80.0,6.0,AFTER coupon check: chassis prototype,Supplied flat bottom on bed; no scaling,STL/07_Longitudinal_Joint_Plate.stl,3MF_Models/07_Longitudinal_Joint_Plate.3mf
+08_Longitudinal_Joint_Plate,1,32.0,80.0,6.0,AFTER coupon check: chassis prototype,Supplied flat bottom on bed; no scaling,STL/08_Longitudinal_Joint_Plate.stl,3MF_Models/08_Longitudinal_Joint_Plate.3mf
+09_Rear_Castor_Adapter_Blank,1,54.0,64.0,6.0,OPTIONAL: blank castor interface,Supplied flat bottom on bed; no scaling,STL/09_Rear_Castor_Adapter_Blank.stl,3MF_Models/09_Rear_Castor_Adapter_Blank.3mf

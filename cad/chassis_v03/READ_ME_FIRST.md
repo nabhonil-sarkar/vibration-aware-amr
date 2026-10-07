@@ -1,5 +1,7 @@
 # AMR chassis v03 prototype
 
+**Current print setup (confirmed 4 October 2026):** Bambu Lab X1 Carbon, PLA 1.75 mm, physical plate 257 × 257 mm and printable volume 256 × 256 × 256 mm. Use the [updated print package and guide](../printing_x1c_pla/START_HERE.md). The original 220 mm bed/unknown-printer assumptions below are historical; nozzle and plate surface remain unconfirmed.
+
 This is a new split, 3D-printable chassis-base design for Nabhonil Sarkar's custom vibration-aware robot. It follows the approved outline's two driven wheels and rear castor layout. It is not a TurtleBot chassis. Previous Fusion concept files and the approved outline have not been modified.
 
 **Status: prototype geometry for review and fit testing, not a validated load-bearing design.** The 1 kg carried-load objective is a design requirement, not an achieved capacity. The complete robot mass is higher because the battery, motors, computers and structure also load the chassis.

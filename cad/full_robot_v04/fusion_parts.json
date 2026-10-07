@@ -1,0 +1,1568 @@
+[
+  {
+    "name": "C_01_Front_Left_Panel",
+    "color": [
+      0.15,
+      0.48,
+      0.78
+    ],
+    "status": "Unchanged v03 solid; imported history; prototype mounting provisions",
+    "volume_mm3": 160044.9945,
+    "bounds_mm": [
+      0.2,
+      170.0,
+      0.2,
+      135.0,
+      40.0,
+      60.0
+    ]
+  },
+  {
+    "name": "C_02_Front_Right_Panel",
+    "color": [
+      0.2,
+      0.64,
+      0.48
+    ],
+    "status": "Unchanged v03 solid; imported history; prototype mounting provisions",
+    "volume_mm3": 160044.9945,
+    "bounds_mm": [
+      0.2,
+      170.0,
+      -135.0,
+      -0.2,
+      40.0,
+      60.0
+    ]
+  },
+  {
+    "name": "C_03_Rear_Left_Panel",
+    "color": [
+      0.95,
+      0.52,
+      0.16
+    ],
+    "status": "Unchanged v03 solid; imported history; prototype mounting provisions",
+    "volume_mm3": 159963.0932,
+    "bounds_mm": [
+      -170.0,
+      -0.2,
+      0.2,
+      135.0,
+      40.0,
+      60.0
+    ]
+  },
+  {
+    "name": "C_04_Rear_Right_Panel",
+    "color": [
+      0.58,
+      0.36,
+      0.78
+    ],
+    "status": "Unchanged v03 solid; imported history; prototype mounting provisions",
+    "volume_mm3": 159963.0932,
+    "bounds_mm": [
+      -170.0,
+      -0.2,
+      -135.0,
+      -0.2,
+      40.0,
+      60.0
+    ]
+  },
+  {
+    "name": "C_05_Transverse_Joint_Plate",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Unchanged v03 solid; imported history; prototype mounting provisions",
+    "volume_mm3": 14931.9425,
+    "bounds_mm": [
+      -40.0,
+      40.0,
+      -86.0,
+      -54.0,
+      46.0,
+      52.0
+    ]
+  },
+  {
+    "name": "C_06_Transverse_Joint_Plate",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Unchanged v03 solid; imported history; prototype mounting provisions",
+    "volume_mm3": 14931.9425,
+    "bounds_mm": [
+      -40.0,
+      40.0,
+      54.0,
+      86.0,
+      46.0,
+      52.0
+    ]
+  },
+  {
+    "name": "C_07_Longitudinal_Joint_Plate",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Unchanged v03 solid; imported history; prototype mounting provisions",
+    "volume_mm3": 14931.9425,
+    "bounds_mm": [
+      -91.0,
+      -59.0,
+      -40.0,
+      40.0,
+      46.0,
+      52.0
+    ]
+  },
+  {
+    "name": "C_08_Longitudinal_Joint_Plate",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Unchanged v03 solid; imported history; prototype mounting provisions",
+    "volume_mm3": 14931.9425,
+    "bounds_mm": [
+      59.0,
+      91.0,
+      -40.0,
+      40.0,
+      46.0,
+      52.0
+    ]
+  },
+  {
+    "name": "C_09_Rear_Castor_Adapter_Blank",
+    "color": [
+      0.14,
+      0.17,
+      0.22
+    ],
+    "status": "Unchanged v03 solid; imported history; prototype mounting provisions",
+    "volume_mm3": 20271.8894,
+    "bounds_mm": [
+      -162.0,
+      -108.0,
+      -32.0,
+      32.0,
+      34.0,
+      40.0
+    ]
+  },
+  {
+    "name": "D_Left_Drive_Tyre_120mm_PROVISIONAL",
+    "color": [
+      0.14,
+      0.17,
+      0.22
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 315120.844,
+    "bounds_mm": [
+      -60.0,
+      60.0,
+      142.0,
+      170.0,
+      0.0,
+      120.0
+    ]
+  },
+  {
+    "name": "D_Left_Encoder_Gearmotor_Envelope",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 22782.8299,
+    "bounds_mm": [
+      -14.0,
+      14.0,
+      88.0,
+      125.0,
+      46.0,
+      74.0
+    ]
+  },
+  {
+    "name": "D_Left_Axle_Envelope",
+    "color": [
+      0.91,
+      0.72,
+      0.23
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 1357.168,
+    "bounds_mm": [
+      -4.0,
+      4.0,
+      125.0,
+      152.0,
+      56.0,
+      64.0
+    ]
+  },
+  {
+    "name": "D_Left_Motor_Saddle_Custom_Interface_Blank",
+    "color": [
+      0.95,
+      0.52,
+      0.16
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 12457.76,
+    "bounds_mm": [
+      -26.0,
+      26.0,
+      96.0,
+      128.0,
+      46.0,
+      72.0
+    ]
+  },
+  {
+    "name": "D_Left_Wheel_Guard_Mounts_Unverified",
+    "color": [
+      0.15,
+      0.48,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 21248.0,
+    "bounds_mm": [
+      -48.0,
+      48.0,
+      117.0,
+      175.0,
+      46.0,
+      128.0
+    ]
+  },
+  {
+    "name": "D_Right_Drive_Tyre_120mm_PROVISIONAL",
+    "color": [
+      0.14,
+      0.17,
+      0.22
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 315120.844,
+    "bounds_mm": [
+      -60.0,
+      60.0,
+      -170.0,
+      -142.0,
+      0.0,
+      120.0
+    ]
+  },
+  {
+    "name": "D_Right_Encoder_Gearmotor_Envelope",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 22782.8299,
+    "bounds_mm": [
+      -14.0,
+      14.0,
+      -125.0,
+      -88.0,
+      46.0,
+      74.0
+    ]
+  },
+  {
+    "name": "D_Right_Axle_Envelope",
+    "color": [
+      0.91,
+      0.72,
+      0.23
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 1357.168,
+    "bounds_mm": [
+      -4.0,
+      4.0,
+      -152.0,
+      -125.0,
+      56.0,
+      64.0
+    ]
+  },
+  {
+    "name": "D_Right_Motor_Saddle_Custom_Interface_Blank",
+    "color": [
+      0.95,
+      0.52,
+      0.16
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 12457.76,
+    "bounds_mm": [
+      -26.0,
+      26.0,
+      -128.0,
+      -96.0,
+      46.0,
+      72.0
+    ]
+  },
+  {
+    "name": "D_Right_Wheel_Guard_Mounts_Unverified",
+    "color": [
+      0.15,
+      0.48,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 21248.0,
+    "bounds_mm": [
+      -48.0,
+      48.0,
+      -175.0,
+      -117.0,
+      46.0,
+      128.0
+    ]
+  },
+  {
+    "name": "D_Rear_Swivel_Castor_Tyre_28mm_PROVISIONAL",
+    "color": [
+      0.14,
+      0.17,
+      0.22
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 11671.645,
+    "bounds_mm": [
+      -169.0,
+      -141.0,
+      -10.0,
+      10.0,
+      0.0,
+      28.0
+    ]
+  },
+  {
+    "name": "D_Rear_Castor_Axle_Envelope",
+    "color": [
+      0.91,
+      0.72,
+      0.23
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 791.6813,
+    "bounds_mm": [
+      -158.0,
+      -152.0,
+      -14.0,
+      14.0,
+      11.0,
+      17.0
+    ]
+  },
+  {
+    "name": "D_Rear_Castor_Fork_20mm_Trail_PROVISIONAL",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 6255.3204,
+    "bounds_mm": [
+      -165.0,
+      -125.0,
+      -15.0,
+      15.0,
+      14.0,
+      32.0
+    ]
+  },
+  {
+    "name": "D_Rear_Castor_Swivel_Bearing_Interface_Blank",
+    "color": [
+      0.91,
+      0.72,
+      0.23
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 402.1239,
+    "bounds_mm": [
+      -143.0,
+      -127.0,
+      -8.0,
+      8.0,
+      32.0,
+      34.0
+    ]
+  },
+  {
+    "name": "D_AntiTip_Roller_Y-95_2mm_Floor_Gap",
+    "color": [
+      0.14,
+      0.17,
+      0.22
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 3383.8723,
+    "bounds_mm": [
+      145.0,
+      165.0,
+      -101.0,
+      -89.0,
+      2.0,
+      22.0
+    ]
+  },
+  {
+    "name": "D_AntiTip_Axle_Y-95",
+    "color": [
+      0.91,
+      0.72,
+      0.23
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 622.0353,
+    "bounds_mm": [
+      152.0,
+      158.0,
+      -106.0,
+      -84.0,
+      9.0,
+      15.0
+    ]
+  },
+  {
+    "name": "D_AntiTip_Bracket_Y-95_Concept_Mount",
+    "color": [
+      0.95,
+      0.52,
+      0.16
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 8411.0036,
+    "bounds_mm": [
+      134.0,
+      168.0,
+      -109.0,
+      -81.0,
+      12.0,
+      40.0
+    ]
+  },
+  {
+    "name": "D_AntiTip_Roller_Y95_2mm_Floor_Gap",
+    "color": [
+      0.14,
+      0.17,
+      0.22
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 3383.8723,
+    "bounds_mm": [
+      145.0,
+      165.0,
+      89.0,
+      101.0,
+      2.0,
+      22.0
+    ]
+  },
+  {
+    "name": "D_AntiTip_Axle_Y95",
+    "color": [
+      0.91,
+      0.72,
+      0.23
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 622.0353,
+    "bounds_mm": [
+      152.0,
+      158.0,
+      84.0,
+      106.0,
+      9.0,
+      15.0
+    ]
+  },
+  {
+    "name": "D_AntiTip_Bracket_Y95_Concept_Mount",
+    "color": [
+      0.95,
+      0.52,
+      0.16
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 8411.0036,
+    "bounds_mm": [
+      134.0,
+      168.0,
+      81.0,
+      109.0,
+      12.0,
+      40.0
+    ]
+  },
+  {
+    "name": "E_Battery_Tray_Spacer_-100_-45",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 329.4902,
+    "bounds_mm": [
+      -104.0,
+      -96.0,
+      -49.0,
+      -41.0,
+      46.0,
+      54.0
+    ]
+  },
+  {
+    "name": "E_Battery_Tray_Spacer_-100_45",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 329.4902,
+    "bounds_mm": [
+      -104.0,
+      -96.0,
+      41.0,
+      49.0,
+      46.0,
+      54.0
+    ]
+  },
+  {
+    "name": "E_Battery_Tray_Spacer_60_-45",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 329.4902,
+    "bounds_mm": [
+      56.0,
+      64.0,
+      -49.0,
+      -41.0,
+      46.0,
+      54.0
+    ]
+  },
+  {
+    "name": "E_Battery_Tray_Spacer_60_45",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 329.4902,
+    "bounds_mm": [
+      56.0,
+      64.0,
+      41.0,
+      49.0,
+      46.0,
+      54.0
+    ]
+  },
+  {
+    "name": "E_Battery_Tray_Removable_Mount_Plate",
+    "color": [
+      0.15,
+      0.48,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 74734.7328,
+    "bounds_mm": [
+      -110.0,
+      70.0,
+      -52.0,
+      52.0,
+      54.0,
+      58.0
+    ]
+  },
+  {
+    "name": "E_Battery_145x86x36_Envelope_SELECTION_PENDING",
+    "color": [
+      0.14,
+      0.17,
+      0.22
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 448920.0,
+    "bounds_mm": [
+      -102.5,
+      42.5,
+      -43.0,
+      43.0,
+      58.0,
+      94.0
+    ]
+  },
+  {
+    "name": "E_Battery_Retention_Band_X-70_1mm_Clearance",
+    "color": [
+      0.95,
+      0.52,
+      0.16
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 3360.0,
+    "bounds_mm": [
+      -75.0,
+      -65.0,
+      -47.0,
+      47.0,
+      58.0,
+      97.0
+    ]
+  },
+  {
+    "name": "E_Battery_Retention_Band_X10_1mm_Clearance",
+    "color": [
+      0.95,
+      0.52,
+      0.16
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 3360.0,
+    "bounds_mm": [
+      5.0,
+      15.0,
+      -47.0,
+      47.0,
+      58.0,
+      97.0
+    ]
+  },
+  {
+    "name": "E_Electronics_Plate_Spacer_100_-45",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 658.9805,
+    "bounds_mm": [
+      96.0,
+      104.0,
+      -49.0,
+      -41.0,
+      46.0,
+      62.0
+    ]
+  },
+  {
+    "name": "E_Electronics_Plate_Spacer_100_45",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 658.9805,
+    "bounds_mm": [
+      96.0,
+      104.0,
+      41.0,
+      49.0,
+      46.0,
+      62.0
+    ]
+  },
+  {
+    "name": "E_Electronics_Plate_Spacer_140_-45",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 658.9805,
+    "bounds_mm": [
+      136.0,
+      144.0,
+      -49.0,
+      -41.0,
+      46.0,
+      62.0
+    ]
+  },
+  {
+    "name": "E_Electronics_Plate_Spacer_140_45",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 658.9805,
+    "bounds_mm": [
+      136.0,
+      144.0,
+      41.0,
+      49.0,
+      46.0,
+      62.0
+    ]
+  },
+  {
+    "name": "E_Front_Electronics_Mount_Plate",
+    "color": [
+      0.15,
+      0.48,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 38963.1239,
+    "bounds_mm": [
+      66.0,
+      164.0,
+      -50.0,
+      50.0,
+      62.0,
+      66.0
+    ]
+  },
+  {
+    "name": "E_Pi5_Standoff_1",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 111.2752,
+    "bounds_mm": [
+      73.5,
+      78.5,
+      -9.0,
+      -4.0,
+      66.0,
+      74.0
+    ]
+  },
+  {
+    "name": "E_Pi5_Standoff_2",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 111.2752,
+    "bounds_mm": [
+      73.5,
+      78.5,
+      40.0,
+      45.0,
+      66.0,
+      74.0
+    ]
+  },
+  {
+    "name": "E_Pi5_Standoff_3",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 111.2752,
+    "bounds_mm": [
+      131.5,
+      136.5,
+      -9.0,
+      -4.0,
+      66.0,
+      74.0
+    ]
+  },
+  {
+    "name": "E_Pi5_Standoff_4",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 111.2752,
+    "bounds_mm": [
+      131.5,
+      136.5,
+      40.0,
+      45.0,
+      66.0,
+      74.0
+    ]
+  },
+  {
+    "name": "E_Raspberry_Pi_5_Reference_PCB_NOT_VENDOR_CAD",
+    "color": [
+      0.2,
+      0.64,
+      0.48
+    ],
+    "status": "85 x 56 mm reference PCB; 58 x 49 mm hole pitch; physical fit still required",
+    "volume_mm3": 7579.3565,
+    "bounds_mm": [
+      72.5,
+      157.5,
+      -10.0,
+      46.0,
+      74.0,
+      75.6
+    ]
+  },
+  {
+    "name": "E_Pi5_Active_Cooling_Allowance",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 42336.0,
+    "bounds_mm": [
+      90.0,
+      132.0,
+      0.0,
+      36.0,
+      75.6,
+      103.6
+    ]
+  },
+  {
+    "name": "E_Pi5_USB_Ethernet_Connector_Allowance",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 12480.0,
+    "bounds_mm": [
+      149.5,
+      164.5,
+      -8.0,
+      44.0,
+      75.6,
+      91.6
+    ]
+  },
+  {
+    "name": "E_Pi5_GPIO_Connector_Allowance",
+    "color": [
+      0.14,
+      0.17,
+      0.22
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 2550.0,
+    "bounds_mm": [
+      80.5,
+      131.5,
+      41.0,
+      46.0,
+      75.6,
+      85.6
+    ]
+  },
+  {
+    "name": "E_MCU_Carrier_Mount_Block",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 17760.0,
+    "bounds_mm": [
+      78.0,
+      152.0,
+      -44.0,
+      -14.0,
+      66.0,
+      74.0
+    ]
+  },
+  {
+    "name": "E_STM32_MCU_70x28x12_GENERIC_Envelope",
+    "color": [
+      0.2,
+      0.64,
+      0.48
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 23520.0,
+    "bounds_mm": [
+      80.0,
+      150.0,
+      -43.0,
+      -15.0,
+      74.0,
+      86.0
+    ]
+  },
+  {
+    "name": "E_Motor_Driver_Spacer_-140",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 741.353,
+    "bounds_mm": [
+      -144.0,
+      -136.0,
+      86.0,
+      94.0,
+      46.0,
+      64.0
+    ]
+  },
+  {
+    "name": "E_Motor_Driver_Spacer_-100",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 741.353,
+    "bounds_mm": [
+      -104.0,
+      -96.0,
+      86.0,
+      94.0,
+      46.0,
+      64.0
+    ]
+  },
+  {
+    "name": "E_Motor_Driver_Mount_Plate",
+    "color": [
+      0.15,
+      0.48,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 11447.3664,
+    "bounds_mm": [
+      -150.0,
+      -90.0,
+      82.0,
+      130.0,
+      64.0,
+      68.0
+    ]
+  },
+  {
+    "name": "E_Motor_Driver_GENERIC_Envelope",
+    "color": [
+      0.58,
+      0.36,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 29160.0,
+    "bounds_mm": [
+      -147.0,
+      -93.0,
+      95.0,
+      125.0,
+      68.0,
+      86.0
+    ]
+  },
+  {
+    "name": "E_Power_Fuse_Regulators_Spacer_-140",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 741.353,
+    "bounds_mm": [
+      -144.0,
+      -136.0,
+      -94.0,
+      -86.0,
+      46.0,
+      64.0
+    ]
+  },
+  {
+    "name": "E_Power_Fuse_Regulators_Spacer_-100",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 741.353,
+    "bounds_mm": [
+      -104.0,
+      -96.0,
+      -94.0,
+      -86.0,
+      46.0,
+      64.0
+    ]
+  },
+  {
+    "name": "E_Power_Fuse_Regulators_Mount_Plate",
+    "color": [
+      0.15,
+      0.48,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 11447.3664,
+    "bounds_mm": [
+      -150.0,
+      -90.0,
+      -130.0,
+      -82.0,
+      64.0,
+      68.0
+    ]
+  },
+  {
+    "name": "E_Power_Fuse_Regulators_GENERIC_Envelope",
+    "color": [
+      0.95,
+      0.52,
+      0.16
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 29160.0,
+    "bounds_mm": [
+      -147.0,
+      -93.0,
+      -125.0,
+      -95.0,
+      68.0,
+      86.0
+    ]
+  },
+  {
+    "name": "E_Chassis_IMU_Rigid_Mount_Pad",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 1600.0,
+    "bounds_mm": [
+      45.0,
+      65.0,
+      -10.0,
+      10.0,
+      58.0,
+      62.0
+    ]
+  },
+  {
+    "name": "E_Chassis_IMU_GENERIC_Envelope",
+    "color": [
+      0.2,
+      0.64,
+      0.48
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 1728.0,
+    "bounds_mm": [
+      46.0,
+      64.0,
+      -8.0,
+      8.0,
+      62.0,
+      68.0
+    ]
+  },
+  {
+    "name": "P_Rigid_Payload_Riser_1",
+    "color": [
+      0.58,
+      0.36,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 16105.7674,
+    "bounds_mm": [
+      -135.0,
+      -115.0,
+      -82.0,
+      -62.0,
+      46.0,
+      100.0
+    ]
+  },
+  {
+    "name": "P_Passive_Elastomer_1_UNRATED",
+    "color": [
+      0.95,
+      0.52,
+      0.16
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 6983.7605,
+    "bounds_mm": [
+      -137.0,
+      -113.0,
+      -84.0,
+      -60.0,
+      100.0,
+      116.0
+    ]
+  },
+  {
+    "name": "P_Rigid_Payload_Riser_2",
+    "color": [
+      0.58,
+      0.36,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 16105.7674,
+    "bounds_mm": [
+      -135.0,
+      -115.0,
+      62.0,
+      82.0,
+      46.0,
+      100.0
+    ]
+  },
+  {
+    "name": "P_Passive_Elastomer_2_UNRATED",
+    "color": [
+      0.95,
+      0.52,
+      0.16
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 6983.7605,
+    "bounds_mm": [
+      -137.0,
+      -113.0,
+      60.0,
+      84.0,
+      100.0,
+      116.0
+    ]
+  },
+  {
+    "name": "P_Rigid_Payload_Riser_3",
+    "color": [
+      0.58,
+      0.36,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 16105.7674,
+    "bounds_mm": [
+      45.0,
+      65.0,
+      -82.0,
+      -62.0,
+      46.0,
+      100.0
+    ]
+  },
+  {
+    "name": "P_Passive_Elastomer_3_UNRATED",
+    "color": [
+      0.95,
+      0.52,
+      0.16
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 6983.7605,
+    "bounds_mm": [
+      43.0,
+      67.0,
+      -84.0,
+      -60.0,
+      100.0,
+      116.0
+    ]
+  },
+  {
+    "name": "P_Rigid_Payload_Riser_4",
+    "color": [
+      0.58,
+      0.36,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 16105.7674,
+    "bounds_mm": [
+      45.0,
+      65.0,
+      62.0,
+      82.0,
+      46.0,
+      100.0
+    ]
+  },
+  {
+    "name": "P_Passive_Elastomer_4_UNRATED",
+    "color": [
+      0.95,
+      0.52,
+      0.16
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 6983.7605,
+    "bounds_mm": [
+      43.0,
+      67.0,
+      60.0,
+      84.0,
+      100.0,
+      116.0
+    ]
+  },
+  {
+    "name": "P_Isolated_Payload_Deck_1kg_TOTAL_CARRIED_TARGET",
+    "color": [
+      0.91,
+      0.72,
+      0.23
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 261818.2965,
+    "bounds_mm": [
+      -150.0,
+      80.0,
+      -95.0,
+      95.0,
+      116.0,
+      122.0
+    ]
+  },
+  {
+    "name": "P_Dummy_Payload_Carrier_And_Retention_Rails",
+    "color": [
+      0.15,
+      0.48,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 103745.6,
+    "bounds_mm": [
+      -125.0,
+      35.0,
+      -63.0,
+      63.0,
+      122.0,
+      145.0
+    ]
+  },
+  {
+    "name": "P_Secured_Dummy_Payload_140x110x37_Envelope",
+    "color": [
+      0.58,
+      0.36,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 569800.0,
+    "bounds_mm": [
+      -115.0,
+      25.0,
+      -55.0,
+      55.0,
+      125.0,
+      162.0
+    ]
+  },
+  {
+    "name": "P_Payload_Retention_Band_2mm_Clearance",
+    "color": [
+      0.95,
+      0.52,
+      0.16
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 4200.0,
+    "bounds_mm": [
+      -50.0,
+      -40.0,
+      -63.0,
+      63.0,
+      122.0,
+      166.0
+    ]
+  },
+  {
+    "name": "P_Payload_IMU_On_Isolated_Deck",
+    "color": [
+      0.2,
+      0.64,
+      0.48
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 1920.0,
+    "bounds_mm": [
+      46.0,
+      66.0,
+      -8.0,
+      8.0,
+      122.0,
+      128.0
+    ]
+  },
+  {
+    "name": "S_Rigid_Sensor_Bridge_Column_1",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 6668.2189,
+    "bounds_mm": [
+      80.0,
+      90.0,
+      -72.0,
+      -62.0,
+      46.0,
+      142.0
+    ]
+  },
+  {
+    "name": "S_Rigid_Sensor_Bridge_Column_2",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 6668.2189,
+    "bounds_mm": [
+      80.0,
+      90.0,
+      62.0,
+      72.0,
+      46.0,
+      142.0
+    ]
+  },
+  {
+    "name": "S_Rigid_Sensor_Bridge_Column_3",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 6668.2189,
+    "bounds_mm": [
+      140.0,
+      150.0,
+      -72.0,
+      -62.0,
+      46.0,
+      142.0
+    ]
+  },
+  {
+    "name": "S_Rigid_Sensor_Bridge_Column_4",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 6668.2189,
+    "bounds_mm": [
+      140.0,
+      150.0,
+      62.0,
+      72.0,
+      46.0,
+      142.0
+    ]
+  },
+  {
+    "name": "S_Chassis_Rigid_Sensor_Bridge",
+    "color": [
+      0.15,
+      0.48,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 47742.7328,
+    "bounds_mm": [
+      74.0,
+      156.0,
+      -73.0,
+      73.0,
+      142.0,
+      146.0
+    ]
+  },
+  {
+    "name": "S_LiDAR_70x55_A1_CLASS_Envelope",
+    "color": [
+      0.87,
+      0.16,
+      0.18
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 211664.805,
+    "bounds_mm": [
+      80.0,
+      150.0,
+      -35.0,
+      35.0,
+      146.0,
+      201.0
+    ]
+  },
+  {
+    "name": "S_Rigid_Camera_Bracket_Interface_Blank",
+    "color": [
+      0.5,
+      0.55,
+      0.62
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 8160.0,
+    "bounds_mm": [
+      146.0,
+      156.0,
+      25.0,
+      59.0,
+      146.0,
+      170.0
+    ]
+  },
+  {
+    "name": "S_Navigation_Camera_GENERIC_Envelope",
+    "color": [
+      0.14,
+      0.17,
+      0.22
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 16896.0,
+    "bounds_mm": [
+      156.0,
+      180.0,
+      26.0,
+      58.0,
+      148.0,
+      170.0
+    ]
+  },
+  {
+    "name": "S_EStop_Chassis_Rigid_Accessible_Bracket",
+    "color": [
+      0.15,
+      0.48,
+      0.78
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 10971.6832,
+    "bounds_mm": [
+      128.0,
+      161.0,
+      -126.0,
+      -78.0,
+      46.0,
+      94.0
+    ]
+  },
+  {
+    "name": "S_EStop_30x24_Envelope_MOTOR_CUTOFF_PENDING",
+    "color": [
+      0.87,
+      0.16,
+      0.18
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 16964.6003,
+    "bounds_mm": [
+      130.0,
+      160.0,
+      -123.0,
+      -93.0,
+      94.0,
+      118.0
+    ]
+  },
+  {
+    "name": "C_Bumper_X-174_Material_Unconfirmed",
+    "color": [
+      0.14,
+      0.17,
+      0.22
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 36800.0,
+    "bounds_mm": [
+      -178.0,
+      -170.0,
+      -115.0,
+      115.0,
+      40.0,
+      60.0
+    ]
+  },
+  {
+    "name": "C_Bumper_X174_Material_Unconfirmed",
+    "color": [
+      0.14,
+      0.17,
+      0.22
+    ],
+    "status": "Provisional concept; verify vendor interfaces",
+    "volume_mm3": 36800.0,
+    "bounds_mm": [
+      170.0,
+      178.0,
+      -115.0,
+      115.0,
+      40.0,
+      60.0
+    ]
+  }
+]

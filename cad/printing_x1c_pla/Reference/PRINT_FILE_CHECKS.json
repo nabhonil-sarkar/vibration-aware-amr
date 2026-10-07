@@ -1,0 +1,179 @@
+{
+  "checked_date": "2026-10-04",
+  "printer": "Bambu Lab X1 Carbon",
+  "filament": "PLA 1.75 mm (user confirmed)",
+  "physical_plate_mm": [
+    257,
+    257
+  ],
+  "printable_volume_mm": [
+    256,
+    256,
+    256
+  ],
+  "geometry_source": "cad/chassis_v03 (relative to repository root)",
+  "used_unchanged_in_v04": true,
+  "parts": [
+    {
+      "part": "00_Hole_and_Slot_Fit_Coupon",
+      "bounds_mm": [
+        70.0,
+        32.0,
+        6.0
+      ],
+      "watertight": true,
+      "consistent_winding": true,
+      "single_closed_volume": true,
+      "bottom_z_mm": 0.0,
+      "fits_256_xy_with_5mm_margin": true,
+      "STL_unchanged_from_source": true,
+      "3MF_reimport_matches_geometry": true,
+      "STL_SHA256": "d7da3b6a9e9c2dedc84df55b0d21a285e0e2b49e1006829811cb0fe8f8730309"
+    },
+    {
+      "part": "01_Front_Left_Panel",
+      "bounds_mm": [
+        169.8000030517578,
+        134.8000030517578,
+        20.0
+      ],
+      "watertight": true,
+      "consistent_winding": true,
+      "single_closed_volume": true,
+      "bottom_z_mm": 0.0,
+      "fits_256_xy_with_5mm_margin": true,
+      "STL_unchanged_from_source": true,
+      "3MF_reimport_matches_geometry": true,
+      "STL_SHA256": "d102cbc5fd62572ee255c6d7bf309eed7c688f02832a0b5c2724fdc8160e99ea"
+    },
+    {
+      "part": "02_Front_Right_Panel",
+      "bounds_mm": [
+        169.8000030517578,
+        134.8000030517578,
+        20.0
+      ],
+      "watertight": true,
+      "consistent_winding": true,
+      "single_closed_volume": true,
+      "bottom_z_mm": 0.0,
+      "fits_256_xy_with_5mm_margin": true,
+      "STL_unchanged_from_source": true,
+      "3MF_reimport_matches_geometry": true,
+      "STL_SHA256": "0dda082ab23c3800e9deee2df594386c5c8c6a5836ddacbee7f804e2def31157"
+    },
+    {
+      "part": "03_Rear_Left_Panel",
+      "bounds_mm": [
+        169.8000030517578,
+        134.8000030517578,
+        20.0
+      ],
+      "watertight": true,
+      "consistent_winding": true,
+      "single_closed_volume": true,
+      "bottom_z_mm": 0.0,
+      "fits_256_xy_with_5mm_margin": true,
+      "STL_unchanged_from_source": true,
+      "3MF_reimport_matches_geometry": true,
+      "STL_SHA256": "292d87795d359d578464be336d0e1e2066a28af52d8168108b769b1de308f234"
+    },
+    {
+      "part": "04_Rear_Right_Panel",
+      "bounds_mm": [
+        169.8000030517578,
+        134.8000030517578,
+        20.0
+      ],
+      "watertight": true,
+      "consistent_winding": true,
+      "single_closed_volume": true,
+      "bottom_z_mm": 0.0,
+      "fits_256_xy_with_5mm_margin": true,
+      "STL_unchanged_from_source": true,
+      "3MF_reimport_matches_geometry": true,
+      "STL_SHA256": "a41a7f18998680f79451888de03e61448fc0d4c61997717de767c64708c5cf30"
+    },
+    {
+      "part": "05_Transverse_Joint_Plate",
+      "bounds_mm": [
+        80.0,
+        32.0,
+        6.0
+      ],
+      "watertight": true,
+      "consistent_winding": true,
+      "single_closed_volume": true,
+      "bottom_z_mm": 0.0,
+      "fits_256_xy_with_5mm_margin": true,
+      "STL_unchanged_from_source": true,
+      "3MF_reimport_matches_geometry": true,
+      "STL_SHA256": "ea27fdb701cb8d013ea2341c57cf134c80fd71794595c509ee5c56cbfb7e87db"
+    },
+    {
+      "part": "06_Transverse_Joint_Plate",
+      "bounds_mm": [
+        80.0,
+        32.0,
+        6.0
+      ],
+      "watertight": true,
+      "consistent_winding": true,
+      "single_closed_volume": true,
+      "bottom_z_mm": 0.0,
+      "fits_256_xy_with_5mm_margin": true,
+      "STL_unchanged_from_source": true,
+      "3MF_reimport_matches_geometry": true,
+      "STL_SHA256": "ea27fdb701cb8d013ea2341c57cf134c80fd71794595c509ee5c56cbfb7e87db"
+    },
+    {
+      "part": "07_Longitudinal_Joint_Plate",
+      "bounds_mm": [
+        32.0,
+        80.0,
+        6.0
+      ],
+      "watertight": true,
+      "consistent_winding": true,
+      "single_closed_volume": true,
+      "bottom_z_mm": 0.0,
+      "fits_256_xy_with_5mm_margin": true,
+      "STL_unchanged_from_source": true,
+      "3MF_reimport_matches_geometry": true,
+      "STL_SHA256": "bdcddaf3d381b02f9acacd67f58ff95e7885005a8e1f36168a418cfde077e178"
+    },
+    {
+      "part": "08_Longitudinal_Joint_Plate",
+      "bounds_mm": [
+        32.0,
+        80.0,
+        6.0
+      ],
+      "watertight": true,
+      "consistent_winding": true,
+      "single_closed_volume": true,
+      "bottom_z_mm": 0.0,
+      "fits_256_xy_with_5mm_margin": true,
+      "STL_unchanged_from_source": true,
+      "3MF_reimport_matches_geometry": true,
+      "STL_SHA256": "bdcddaf3d381b02f9acacd67f58ff95e7885005a8e1f36168a418cfde077e178"
+    },
+    {
+      "part": "09_Rear_Castor_Adapter_Blank",
+      "bounds_mm": [
+        54.0,
+        64.0,
+        6.0
+      ],
+      "watertight": true,
+      "consistent_winding": true,
+      "single_closed_volume": true,
+      "bottom_z_mm": 0.0,
+      "fits_256_xy_with_5mm_margin": true,
+      "STL_unchanged_from_source": true,
+      "3MF_reimport_matches_geometry": true,
+      "STL_SHA256": "6024a819e78a98e98ef7dacf793bca5413af7516a1fb73378d54df637f3babc8"
+    }
+  ],
+  "limits": "Geometry/file checks only. Not sliced in Bambu Studio, printer-tested, or load validated. No nozzle or plate-surface assumption embedded."
+}

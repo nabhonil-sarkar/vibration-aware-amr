@@ -1,0 +1,532 @@
+{
+  "native_archive_exported": true,
+  "native_archive_reopened": true,
+  "solid_count": 87,
+  "all_bodies_solid_and_valid": true,
+  "color_assignment_count": 87,
+  "bodies": [
+    {
+      "component": "C_01_Front_Left_Panel",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "C_02_Front_Right_Panel",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "C_03_Rear_Left_Panel",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "C_04_Rear_Right_Panel",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "C_05_Transverse_Joint_Plate",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "C_06_Transverse_Joint_Plate",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "C_07_Longitudinal_Joint_Plate",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "C_08_Longitudinal_Joint_Plate",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "C_09_Rear_Castor_Adapter_Blank",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Left_Drive_Tyre_120mm_PROVISIONAL",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Left_Encoder_Gearmotor_Envelope",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Left_Axle_Envelope",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Left_Motor_Saddle_Custom_Interface_Blank",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Left_Wheel_Guard_Mounts_Unverified",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Right_Drive_Tyre_120mm_PROVISIONAL",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Right_Encoder_Gearmotor_Envelope",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Right_Axle_Envelope",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Right_Motor_Saddle_Custom_Interface_Blank",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Right_Wheel_Guard_Mounts_Unverified",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Rear_Swivel_Castor_Tyre_28mm_PROVISIONAL",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Rear_Castor_Axle_Envelope",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Rear_Castor_Fork_20mm_Trail_PROVISIONAL",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_Rear_Castor_Swivel_Bearing_Interface_Blank",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_AntiTip_Roller_Y-95_2mm_Floor_Gap",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_AntiTip_Axle_Y-95",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_AntiTip_Bracket_Y-95_Concept_Mount",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_AntiTip_Roller_Y95_2mm_Floor_Gap",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_AntiTip_Axle_Y95",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "D_AntiTip_Bracket_Y95_Concept_Mount",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Battery_Tray_Spacer_-100_-45",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Battery_Tray_Spacer_-100_45",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Battery_Tray_Spacer_60_-45",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Battery_Tray_Spacer_60_45",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Battery_Tray_Removable_Mount_Plate",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Battery_145x86x36_Envelope_SELECTION_PENDING",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Battery_Retention_Band_X-70_1mm_Clearance",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Battery_Retention_Band_X10_1mm_Clearance",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Electronics_Plate_Spacer_100_-45",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Electronics_Plate_Spacer_100_45",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Electronics_Plate_Spacer_140_-45",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Electronics_Plate_Spacer_140_45",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Front_Electronics_Mount_Plate",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Pi5_Standoff_1",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Pi5_Standoff_2",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Pi5_Standoff_3",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Pi5_Standoff_4",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Raspberry_Pi_5_Reference_PCB_NOT_VENDOR_CAD",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Pi5_Active_Cooling_Allowance",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Pi5_USB_Ethernet_Connector_Allowance",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Pi5_GPIO_Connector_Allowance",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_MCU_Carrier_Mount_Block",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_STM32_MCU_70x28x12_GENERIC_Envelope",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Motor_Driver_Spacer_-140",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Motor_Driver_Spacer_-100",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Motor_Driver_Mount_Plate",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Motor_Driver_GENERIC_Envelope",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Power_Fuse_Regulators_Spacer_-140",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Power_Fuse_Regulators_Spacer_-100",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Power_Fuse_Regulators_Mount_Plate",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Power_Fuse_Regulators_GENERIC_Envelope",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Chassis_IMU_Rigid_Mount_Pad",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "E_Chassis_IMU_GENERIC_Envelope",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "P_Rigid_Payload_Riser_1",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "P_Passive_Elastomer_1_UNRATED",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "P_Rigid_Payload_Riser_2",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "P_Passive_Elastomer_2_UNRATED",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "P_Rigid_Payload_Riser_3",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "P_Passive_Elastomer_3_UNRATED",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "P_Rigid_Payload_Riser_4",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "P_Passive_Elastomer_4_UNRATED",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "P_Isolated_Payload_Deck_1kg_TOTAL_CARRIED_TARGET",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "P_Dummy_Payload_Carrier_And_Retention_Rails",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "P_Secured_Dummy_Payload_140x110x37_Envelope",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "P_Payload_Retention_Band_2mm_Clearance",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "P_Payload_IMU_On_Isolated_Deck",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "S_Rigid_Sensor_Bridge_Column_1",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "S_Rigid_Sensor_Bridge_Column_2",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "S_Rigid_Sensor_Bridge_Column_3",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "S_Rigid_Sensor_Bridge_Column_4",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "S_Chassis_Rigid_Sensor_Bridge",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "S_LiDAR_70x55_A1_CLASS_Envelope",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "S_Rigid_Camera_Bracket_Interface_Blank",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "S_Navigation_Camera_GENERIC_Envelope",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "S_EStop_Chassis_Rigid_Accessible_Bracket",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "S_EStop_30x24_Envelope_MOTOR_CUTOFF_PENDING",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "C_Bumper_X-174_Material_Unconfirmed",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    },
+    {
+      "component": "C_Bumper_X174_Material_Unconfirmed",
+      "body": "Body1",
+      "solid": true,
+      "valid": true
+    }
+  ],
+  "note": "Static solids only. No joints, animation, vendor fit or structural validation."
+}
