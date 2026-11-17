@@ -7,8 +7,9 @@
 // (virtual COM port), PI wheel-speed loop, and a 0.5 s command timeout that disables
 // the motor driver.
 //
-// STATUS 17 Nov 2026: v0.2. Compiles for the F401RE. Not yet run: binaries over ~32 KB do not run after a
-// Mass Storage (drag-and-drop) upload on this board's ST-LINK, so flash with STM32CubeProgrammer (SWD) or the IDE debugger.
+// STATUS 17 Nov 2026: v0.2 runs on the board (flashed with the IDE debugger): 100 Hz telemetry, IMU 1 read,
+// commands received, 0.5 s timeout works. Motors not yet connected. Binaries this size do not run after a
+// Mass Storage (drag-and-drop) upload on this board's ST-LINK: flash with STM32CubeProgrammer (SWD) or the IDE debugger.
 // v0.2 adds flushed start-up messages and skips the IMUs when D14/D15 have no pull-ups.
 // Pin plan: see PIN_PLAN.md in this folder.
 //
