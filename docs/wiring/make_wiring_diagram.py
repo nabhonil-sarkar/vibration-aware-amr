@@ -102,8 +102,7 @@ wire([(131.4, 62), (151.6, 62)], C12, 'AO1 / AO2')
 wire([(131.4, 50), (138, 50), (138, 32), (151.6, 32)], C12, 'BO1 / BO2', at=2)
 wire([(151.6, 55), (145, 55), (145, 40), (90.4, 40)], SIG, 'left encoder A/B + 3V3/GND', at=2)
 wire([(151.6, 23), (98, 23), (98, 34), (90.4, 34)], SIG, 'right encoder A/B + 3V3/GND', at=0)
-ax.text(152, 15.6, 'Pins 2 to 6 are unlabelled on the encoder\nboard. Confirm with a meter before wiring:\n'
-        '1-6 low ohms; diode test 5(+) 2(-) lights D1.', fontsize=7.6, color='#b03a2e', va='top')
+ax.text(152, 15.6, 'Connector order confirmed with a meter on\nboth motors, 17 Nov 2026 (only pin 1 is\nlabelled on the board). A/B may be swapped.', fontsize=7.6, color='#117864', va='top')
 
 # ---------------- IMUs ----------------
 block(48, 2, 21, 14, 'IMU 1, chassis', ['MPU-6050 (GY-521), 3V3', 'SCL D15, SDA D14', 'AD0 -> GND: 0x68'], edge=C33, lsize=7.8)

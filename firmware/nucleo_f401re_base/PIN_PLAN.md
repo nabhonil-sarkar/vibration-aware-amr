@@ -29,7 +29,7 @@ Keep clear: D0/D1 (they carry the USB serial link by default), D13 (LED).
 
 - Nucleo: powered from the Pi's USB through the ST-LINK USB socket (power jumper in its default U5V position). One cable carries power, programming and the serial link.
 - TB6612 VCC (logic): Nucleo 3V3. TB6612 VM (motor): 12 V from the relay output. TB6612 GND: common ground.
-- Encoders: VCC to Nucleo 3V3, GND to GND. If the encoder label says it needs 5 V, ask before wiring: the encoder pins' 5 V tolerance needs checking first.
+- Encoders: VCC to Nucleo 3V3, GND to GND. Motor connector order confirmed with a meter on both motors (17 Nov): 1 M1, 2 GND, 3 A, 4 B, 5 VCC, 6 M2 (A/B may be swapped: flip ENC_INVERT if counts run backwards).
 - IMUs (GY-521 type): VCC to 3V3, GND to GND, SCL/SDA as above. Chassis IMU AD0 to GND (address 0x68); deck IMU AD0 to 3V3 (address 0x69). Connect both IMUs before powering up; the firmware sets them up only at boot.
 - All grounds common: battery negative, buck output negative, TB6612 GND, Nucleo GND, encoder and IMU GND.
 
@@ -40,13 +40,22 @@ Keep clear: D0/D1 (they carry the USB serial link by default), D13 (LED).
 
 ## Flashing
 
-Arduino IDE 2 -> Boards Manager: add `https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json` in Preferences, install "STM32 MCU based boards". Tools: Board "Nucleo-64", Board part number "Nucleo F401RE", Upload method "Mass Storage". Plug the Nucleo into the laptop by USB; it appears as a NOD_F401RE drive. Upload. To test from the laptop's Serial Monitor first: 230400 baud, newline line ending, type `I` then `P,200,200`.
+Arduino IDE 2 -> Preferences -> Additional boards manager URLs: `https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json`; Boards Manager: install "STM32 MCU based boards" (3.1.0 used). Tools: Board "Nucleo-64", Board part number "Nucleo F401RE" (check it: it can reset to C031C6 when a sketch is reopened).
+
+**Do not use Upload method "Mass Storage" on this board.** On 17 Nov 2026, sketches of about 44 KB and larger never started after a drag-and-drop upload, although the IDE reported "Upload complete"; 13 and 22 KB sketches worked. The firmware is about 46 KB. Cause: the board's ST-LINK firmware. Two ways that work:
+
+1. **IDE debugger (used on 17 Nov, works):** Sketch -> Optimize for Debugging; Tools -> Debug symbols "Symbols Enabled (-g)"; click the Debug button. It flashes over SWD and stops at a breakpoint; press Continue, or end the session and press the board's RESET. The firmware then runs on its own after every reset.
+2. **STM32CubeProgrammer (recommended):** install it from st.com, then Tools -> Upload method "STM32CubeProgrammer (SWD)". Its Firmware upgrade button also updates the ST-LINK, which should fix drag-and-drop.
+
+Serial Monitor: 230400 baud, New Line. Uploading drops the monitor's connection: close and reopen it afterwards. Only keep one IDE window with a monitor open.
+
+Checked on 17 Nov 2026 (one IMU wired, motors not connected): `T` lines at 100 Hz; IMU 1 reads about 0.96 g at rest; `P,0,0` sets flags to 9 then 10 after 0.5 s (command received, timeout works).
 
 ## Bench order (wheels off the ground, relay off until step 4)
 
 1. Flash, open the Serial Monitor: an `I,...` line shows. `imu1_who`/`imu2_who` show 0x68 for MPU6050 (0x70 or 0x71 means an MPU6500/9250 clone; the firmware still works).
 2. `T,...` lines stream at 100 Hz. Do NOT turn the wheels by hand to test the encoders: the worm gearbox is likely self-locking and forcing it can strip the gears. Use the motor instead (steps 3 and 4).
-3. Relay on. `P,150,0` (re-send every few tenths of a second) must turn the left wheel forward; if not, flip `LEFT_MOTOR_INVERT`. While it turns forward, `encL` must count up; if not, flip `LEFT_ENC_INVERT`. Same for the right with `P,0,150`.
-4. Counts per wheel revolution: put a tape mark on the wheel, send `Z`, drive one wheel slowly with `P` and send `S` after exactly 10 turns by eye, read the count, divide by 10. Write this number down: it converts m/s to counts/s.
+3. Relay on. Commands time out after 0.5 s, so use the test script, which re-sends them: `python3 ../drive_link_test.py --pwm 150 0 --seconds 3` (add `--port COM5` or similar on Windows). The left wheel must turn forward; if not, flip `LEFT_MOTOR_INVERT`. While it turns forward, `encL` must count up; if not, flip `LEFT_ENC_INVERT`. Same for the right with `--pwm 0 150`.
+4. Counts per wheel revolution: put a tape mark on the wheel at the top, run `--pwm 150 0 --seconds 30`, count the turns (estimate the last part-turn from where the mark stops), and divide the final `encL` by the turns. Write this number down: it converts m/s to counts/s.
 5. Stop sending: within 0.5 s the wheels stop, the LED blinks fast, and flags bit 1 is set. This is Wednesday's pass check.
 6. Speed loop: `V,<counts/s>,<counts/s>` and tune `K,kp,ki,kf` until speed follows the target without oscillating.

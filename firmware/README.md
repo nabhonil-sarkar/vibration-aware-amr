@@ -6,4 +6,4 @@
 | [nucleo_f401re_base/PIN_PLAN.md](nucleo_f401re_base/PIN_PLAN.md) | Pin table, power and ground, limits, flashing steps, bench order |
 | [drive_link_test.py](drive_link_test.py) | Pi-side test (pyserial): drives the wheels for a few seconds, stops sending, and checks the firmware times out by itself |
 
-**Status, 17 Nov 2026:** written and syntax-checked against stub headers. Not yet compiled for the board, flashed or run. Speed-loop gains are starting values to be tuned on the bench. Wiring: [docs/wiring](../docs/wiring).
+**Status, 17 Nov 2026:** v0.2 compiled (STM32 core 3.1.0), flashed through the IDE debugger and run on the board: 100 Hz telemetry, chassis IMU read, commands received, 0.5 s timeout works. Motors not yet connected; speed-loop gains are starting values. Do not use Mass Storage upload on this board (see PIN_PLAN.md). Wiring: [docs/wiring](../docs/wiring).

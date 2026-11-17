@@ -1,13 +1,15 @@
 // Vibration-Aware AMR - base controller firmware v0.1 for NUCLEO-F401RE
 // Arduino IDE + "STM32 MCU based boards" core (STMicroelectronics / STM32duino).
-// Board: Nucleo-64, Board part number: Nucleo F401RE, Upload method: Mass Storage.
+// Board: Nucleo-64, Board part number: Nucleo F401RE, Upload method: STM32CubeProgrammer (SWD).
 //
 // Does: TB6612 PWM + direction for two motors, quadrature encoder counts on TIM2/TIM3,
 // two MPU6050-class IMUs on I2C1, line-based serial link to the Pi over the ST-LINK USB
 // (virtual COM port), PI wheel-speed loop, and a 0.5 s command timeout that disables
 // the motor driver.
 //
-// STATUS: written 17 Nov 2026, syntax-checked only. NOT yet run on hardware.
+// STATUS 17 Nov 2026: v0.2. Compiles for the F401RE. Not yet run: binaries over ~32 KB do not run after a
+// Mass Storage (drag-and-drop) upload on this board's ST-LINK, so flash with STM32CubeProgrammer (SWD) or the IDE debugger.
+// v0.2 adds flushed start-up messages and skips the IMUs when D14/D15 have no pull-ups.
 // Pin plan: see PIN_PLAN.md in this folder.
 //
 // ---------------- Serial protocol (230400 baud, ASCII, one command per line '\n') -------
@@ -79,6 +81,7 @@ float speed[2] = {0, 0};
 uint32_t lastCmdMs = 0;
 bool timedOut = false, buttonStop = false;
 bool imuOk[2] = {false, false};
+bool i2cPresent = false;                 // false if D14/D15 have no pull-ups (no IMU wired): IMUs skipped
 uint8_t imuWho[2] = {0, 0};
 int16_t imu[2][6];
 char rxBuf[64];
@@ -211,11 +214,23 @@ static bool imuRead(uint8_t i) {
   return true;
 }
 
+// With nothing wired to D14/D15 the I2C lines float and the I2C peripheral can hang.
+// IMU breakouts have pull-ups, so both lines read high even against the internal pull-downs.
+static bool i2cLinesPulledUp() {
+  pinMode(PB8, INPUT_PULLDOWN);
+  pinMode(PB9, INPUT_PULLDOWN);
+  delay(2);
+  bool ok = digitalRead(PB8) == HIGH && digitalRead(PB9) == HIGH;
+  pinMode(PB8, INPUT);
+  pinMode(PB9, INPUT);
+  return ok;
+}
+
 // ---------------- serial ----------------
 static void printInfo() {
   char s[128];
-  snprintf(s, sizeof(s), "I,fw=0.1,board=NUCLEO-F401RE,imu1_who=0x%02X,imu2_who=0x%02X,limit=%d,timeout_ms=%lu\n",
-           imuWho[0], imuWho[1], pwmLimit, (unsigned long)CMD_TIMEOUT_MS);
+  snprintf(s, sizeof(s), "I,fw=0.2,board=NUCLEO-F401RE,i2c=%s,imu1_who=0x%02X,imu2_who=0x%02X,limit=%d,timeout_ms=%lu\n",
+           i2cPresent ? "ok" : "no_pullups", imuWho[0], imuWho[1], pwmLimit, (unsigned long)CMD_TIMEOUT_MS);
   Serial.write(s);
 }
 
@@ -282,25 +297,46 @@ static void sendTelemetry() {
 }
 
 // ---------------- main ----------------
+static void stage(const char *msg) {                       // start-up trace: flushed so it survives a crash
+  Serial.write(msg);
+  Serial.flush();
+}
+
 void setup() {
+  pinMode(PIN_LED, OUTPUT); digitalWrite(PIN_LED, HIGH);   // LED stays ON only while setup runs
+  Serial.begin(BAUD);
+  delay(200);
+  stage("I,boot\n");
   pinMode(PIN_STBY, OUTPUT); digitalWrite(PIN_STBY, LOW);   // driver off first
   pinMode(PIN_AIN1, OUTPUT); pinMode(PIN_AIN2, OUTPUT);
   pinMode(PIN_BIN1, OUTPUT); pinMode(PIN_BIN2, OUTPUT);
-  pinMode(PIN_LED, OUTPUT);
   pinMode(PIN_BTN, INPUT);                                  // board has its own pull-up
+  stage("I,pins_ok\n");
   analogWriteResolution(10);
   analogWriteFrequency(20000);                              // 20 kHz, above hearing
+  stage("I,pwm_config_ok\n");
   stopAll();
+  stage("I,driver_off\n");
 
-  Serial.begin(BAUD);
   encoderInit();
-  Wire.begin();
-  Wire.setClock(400000);                                    // drop to 100000 if the deck cable gives errors
-  memset(imu, 0, sizeof(imu));
-  for (uint8_t i = 0; i < 2; i++) imuOk[i] = imuInit(i);
   encLast[0] = (uint16_t)TIM2->CNT;
   encLast[1] = (uint16_t)TIM3->CNT;
+  stage("I,encoders_ok\n");
+
+  memset(imu, 0, sizeof(imu));
+  i2cPresent = i2cLinesPulledUp();
+  stage(i2cPresent ? "I,i2c_pullups_found\n" : "I,i2c_no_pullups\n");
+  if (i2cPresent) {
+    Wire.begin();
+    Wire.setClock(400000);                                  // drop to 100000 if the deck cable gives errors
+    stage("I,wire_begin_ok\n");
+    for (uint8_t i = 0; i < 2; i++) imuOk[i] = imuInit(i);
+    stage("I,imu_init_done\n");
+  } else {
+    stage("E,no pull-ups on D14/D15: IMUs skipped (wire an IMU and reset)\n");
+  }
   printInfo();
+  digitalWrite(PIN_LED, LOW);
 }
 
 void loop() {
@@ -315,7 +351,7 @@ void loop() {
     const float dt = LOOP_US * 1e-6f;
     encoderUpdate(dt);
     if (mode != MODE_OFF) controlUpdate(dt);
-    for (uint8_t i = 0; i < 2; i++) {
+    for (uint8_t i = 0; i < 2 && i2cPresent; i++) {
       bool ok = imuRead(i);
       if (!ok && imuOk[i]) memset(imu[i], 0, sizeof(imu[i]));
       imuOk[i] = ok;
