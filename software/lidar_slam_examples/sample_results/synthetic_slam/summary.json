@@ -1,0 +1,13 @@
+{
+  "method": "scan-to-map ICP + occupancy grid; no loop closure",
+  "source": "synthetic",
+  "accepted": 80,
+  "rejected": 0,
+  "final_pose_m_m_rad": [
+    0.6000722283203733,
+    0.0011520839674092763,
+    0.1757665623333109
+  ],
+  "map_resolution_m": 0.05,
+  "error": null
+}

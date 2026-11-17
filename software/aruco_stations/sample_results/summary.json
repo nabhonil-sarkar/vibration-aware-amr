@@ -1,0 +1,49 @@
+{
+  "data_type": "SYNTHETIC camera frames and simulated robot; no hardware involved",
+  "final_state": "DONE",
+  "sim_time_s": 89.6,
+  "stations_reached": [
+    "pickup",
+    "dropoff",
+    "recharge"
+  ],
+  "dropoff_marker_moved_at_s": 32.0,
+  "arrivals": [
+    {
+      "station": "pickup",
+      "time_s": 19.9,
+      "true_distance_m": 0.3626,
+      "stop_error_mm": 12.6,
+      "true_bearing_deg": 0.04,
+      "estimated_distance_m": 0.363,
+      "marker_yaw_deg": 8.1
+    },
+    {
+      "station": "dropoff",
+      "time_s": 58.4,
+      "true_distance_m": 0.3631,
+      "stop_error_mm": 13.1,
+      "true_bearing_deg": 0.04,
+      "estimated_distance_m": 0.3636,
+      "marker_yaw_deg": 17.3
+    },
+    {
+      "station": "recharge",
+      "time_s": 86.4,
+      "true_distance_m": 0.364,
+      "stop_error_mm": 14.0,
+      "true_bearing_deg": 0.04,
+      "estimated_distance_m": 0.3645,
+      "marker_yaw_deg": 15.0
+    }
+  ],
+  "max_v_cmd": 0.1,
+  "max_abs_w_cmd": 0.6,
+  "camera": {
+    "width": 1014,
+    "height": 760,
+    "hfov_deg": 66.0,
+    "calibrated": false
+  },
+  "marker_size_m": 0.1
+}

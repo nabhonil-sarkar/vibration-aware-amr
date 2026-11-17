@@ -1,0 +1,13 @@
+{
+  "method": "scan-to-map ICP + occupancy grid; no loop closure",
+  "source": "..\\hardware_bringup_2026-10-07\\lidar-test.txt",
+  "accepted": 56,
+  "rejected": 0,
+  "final_pose_m_m_rad": [
+    -0.0009063973669942555,
+    0.0003447026218379812,
+    -0.000867915059704405
+  ],
+  "map_resolution_m": 0.05,
+  "error": null
+}

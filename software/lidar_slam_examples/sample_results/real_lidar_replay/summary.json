@@ -1,0 +1,7 @@
+{
+  "source": "..\\hardware_bringup_2026-10-07\\lidar-test.txt",
+  "scans": 56,
+  "raw_samples": 64858,
+  "retained_angular_bins": 18220,
+  "error": null
+}
