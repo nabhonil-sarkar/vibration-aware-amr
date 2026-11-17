@@ -27,3 +27,5 @@ cad/concept_v02/source/exports/
 # Academic submissions and personal records remain local.
 private/
 academic_submissions/
+# v05 generators write mesh caches next to the scripts
+cad/v05/**/_*.pkl
