@@ -9,3 +9,5 @@ The original project folders remain separate from this working repository. Editi
 No repository-wide open-source licence is added. Existing package metadata is preserved. Choose licensing and any public release only after considering university and third-party requirements.
 
 The October engineering update publishes the v04 native Fusion/STEP concept, generators, previews and recorded verification, together with the X1 Carbon PLA chassis print models and guide. These are prototype artefacts, not a fabrication release or physical-performance evidence. The local academic handover and its machine-specific paths remain outside the repository.
+
+The 17 November 2026 update adds the v05 design actually being built (STEP and STL of every printed part, generators, checks, renders), the NUCLEO-F401RE firmware, wiring diagram v1, dated build photos of the purchased parts, and the ArUco and LiDAR example software written in October and November. Build photos show hardware only. Academic documents, the handover and the local print folder remain outside the repository.
