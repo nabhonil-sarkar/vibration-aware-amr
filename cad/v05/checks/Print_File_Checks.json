@@ -1,14 +1,20 @@
 {
-  "status": "Geometry and file checks only. Nothing here has been printed or load tested.",
+  "status": "Geometry and file checks only, 23 Nov 2026. Physical fit is confirmed only where the build log says so.",
   "insert_bores_mm": {
     "M3": 4.0,
     "M4": 5.2
   },
   "clearance_holes_mm": {
-    "M3": 3.4,
-    "M4": 4.5
+    "baseplate_M3": 3.6,
+    "baseplate_M4": 4.8,
+    "other_parts_M3": 3.4,
+    "other_parts_M4": 4.5
   },
-  "baseplate": "copied unchanged from the v05 release",
+  "superseded": [
+    "01 v05 baseplate",
+    "04 v05 deck",
+    "10-13 v05.2 cradles and caps"
+  ],
   "parts": [
     {
       "part": "00_Insert_Fit_Coupon",
@@ -20,10 +26,23 @@
         10.0
       ],
       "volume_cm3": 6.59,
-      "solid_valid": true,
       "stl_watertight": true,
       "stl_components": 1,
       "threemf_volume_cm3": 6.59
+    },
+    {
+      "part": "01_Baseplate_v05_3_Single_Piece",
+      "quantity": 1,
+      "status": "ready",
+      "print_size_mm": [
+        240.0,
+        240.0,
+        12.0
+      ],
+      "volume_cm3": 317.72,
+      "stl_watertight": true,
+      "stl_components": 1,
+      "threemf_volume_cm3": 317.72
     },
     {
       "part": "02_Bridge_Column_88mm",
@@ -35,7 +54,6 @@
         88.0
       ],
       "volume_cm3": 9.39,
-      "solid_valid": true,
       "stl_watertight": true,
       "stl_components": 1,
       "threemf_volume_cm3": 9.39
@@ -50,13 +68,12 @@
         56.0
       ],
       "volume_cm3": 8.06,
-      "solid_valid": true,
       "stl_watertight": true,
       "stl_components": 1,
       "threemf_volume_cm3": 8.06
     },
     {
-      "part": "04_Isolated_Payload_Deck",
+      "part": "04_Isolated_Payload_Deck_v05_3",
       "quantity": 1,
       "status": "ready",
       "print_size_mm": [
@@ -64,11 +81,10 @@
         180.0,
         4.0
       ],
-      "volume_cm3": 106.12,
-      "solid_valid": true,
+      "volume_cm3": 105.66,
       "stl_watertight": true,
       "stl_components": 1,
-      "threemf_volume_cm3": 106.12
+      "threemf_volume_cm3": 105.66
     },
     {
       "part": "05_Payload_Carrier_Tray",
@@ -80,7 +96,6 @@
         12.0
       ],
       "volume_cm3": 68.8,
-      "solid_valid": true,
       "stl_watertight": true,
       "stl_components": 1,
       "threemf_volume_cm3": 68.8
@@ -95,7 +110,6 @@
         3.0
       ],
       "volume_cm3": 42.74,
-      "solid_valid": true,
       "stl_watertight": true,
       "stl_components": 1,
       "threemf_volume_cm3": 42.74
@@ -110,7 +124,6 @@
         3.0
       ],
       "volume_cm3": 15.95,
-      "solid_valid": true,
       "stl_watertight": true,
       "stl_components": 1,
       "threemf_volume_cm3": 15.95
@@ -125,70 +138,65 @@
         34.0
       ],
       "volume_cm3": 48.55,
-      "solid_valid": true,
       "stl_watertight": true,
       "stl_components": 1,
       "threemf_volume_cm3": 48.55
     },
     {
-      "part": "10_Motor_Cradle_Left",
+      "part": "10_Motor_Cradle_Left_v05_3",
       "quantity": 1,
       "status": "ready",
       "print_size_mm": [
         62.0,
-        37.3,
-        37.8
+        38.5,
+        37.5
       ],
-      "volume_cm3": 38.33,
-      "solid_valid": true,
+      "volume_cm3": 37.94,
       "stl_watertight": true,
       "stl_components": 1,
-      "threemf_volume_cm3": 38.33
+      "threemf_volume_cm3": 37.94
     },
     {
-      "part": "11_Motor_Cradle_Right",
+      "part": "11_Motor_Cradle_Right_v05_3",
       "quantity": 1,
       "status": "ready",
       "print_size_mm": [
         62.0,
-        37.3,
-        37.8
+        38.5,
+        37.5
       ],
-      "volume_cm3": 38.33,
-      "solid_valid": true,
+      "volume_cm3": 37.94,
       "stl_watertight": true,
       "stl_components": 1,
-      "threemf_volume_cm3": 38.33
+      "threemf_volume_cm3": 37.94
     },
     {
-      "part": "12_Cradle_Cap_Left",
+      "part": "12_Cradle_Cap_Left_v05_3",
       "quantity": 1,
       "status": "ready",
       "print_size_mm": [
         60.0,
-        37.2,
-        3.0
+        38.5,
+        6.0
       ],
-      "volume_cm3": 6.62,
-      "solid_valid": true,
+      "volume_cm3": 7.25,
       "stl_watertight": true,
       "stl_components": 1,
-      "threemf_volume_cm3": 6.62
+      "threemf_volume_cm3": 7.25
     },
     {
-      "part": "13_Cradle_Cap_Right",
+      "part": "13_Cradle_Cap_Right_v05_3",
       "quantity": 1,
       "status": "ready",
       "print_size_mm": [
         60.0,
-        37.2,
-        3.0
+        38.5,
+        6.0
       ],
-      "volume_cm3": 6.62,
-      "solid_valid": true,
+      "volume_cm3": 7.25,
       "stl_watertight": true,
       "stl_components": 1,
-      "threemf_volume_cm3": 6.62
+      "threemf_volume_cm3": 7.25
     },
     {
       "part": "14_Rear_Caster_Block",
@@ -200,7 +208,6 @@
         37.0
       ],
       "volume_cm3": 97.27,
-      "solid_valid": true,
       "stl_watertight": true,
       "stl_components": 1,
       "threemf_volume_cm3": 97.27
@@ -215,10 +222,23 @@
         52.0
       ],
       "volume_cm3": 10.02,
-      "solid_valid": true,
       "stl_watertight": true,
       "stl_components": 1,
       "threemf_volume_cm3": 10.02
+    },
+    {
+      "part": "16_Rigid_Deck_Spacer_14mm",
+      "quantity": 4,
+      "status": "ready",
+      "print_size_mm": [
+        12.0,
+        12.0,
+        14.0
+      ],
+      "volume_cm3": 1.32,
+      "stl_watertight": true,
+      "stl_components": 1,
+      "threemf_volume_cm3": 1.32
     }
   ]
 }

@@ -1,4 +1,4 @@
-# AMR v05.2: single-piece baseplate robot (current design)
+# AMR v05 series: single-piece baseplate robot (current design, revision v05.3)
 
 This is the design being built in November 2026. It replaces the v04 concept and the v03 split chassis, which are kept in this repository for the design history.
 
@@ -6,11 +6,22 @@ This is the design being built in November 2026. It replaces the v04 concept and
 
 **Status, 17 Nov 2026:** baseplate (part 01) printed; parts 00, 02 to 08 printing; parts 10 to 15 rebuilt from caliper measurements and not yet printed. Nothing has been load tested. The assembly is a CAD concept with purchased parts shown as envelopes; it is not a test result.
 
+**Revision v05.3, 18 to 23 Nov 2026 (print files only; the assembly STEP and renders are still v05.2):**
+
+| Part | What changed, and why |
+| --- | --- |
+| 01 baseplate v05.3 | The first print had undersize and skinned-over holes, and three holes did not print. Holes enlarged (M3 3.6, M4 4.8, motor slots 4.8 mm), 0.6 mm chamfer under every hole against first-layer squash, two GY-521 slots at the rear left (the original spot sat over the caster block), two 12 x 20 mm motor-wire holes at (-74, +/-96). Same positions, so every other part fits. Generator: `chassis_v05/build_baseplate_v053.py`. |
+| 10 to 13 cradles and caps v05.3 | The v05.2 cradle cracked on the first fit: about 0.25 mm clearance per side and a 2 mm outer wall joined along the layer lines. v05.3 clamps the gearbox between roof and cap (0.3 mm squeeze), with short 3 mm lips and 0.5 mm side clearance. Generator: `robot_v05/build_cradle_v053.py`. |
+| 04 deck v05.3 | Rear riser holes 6.0 mm round, front riser holes 6.0 mm slots with 4 mm front-back travel (the front risers sit in motor slots), bigger M3 holes, bottom chamfer. Generator: `robot_v05/build_deck_v053.py`. |
+| 16 rigid deck spacer (new, x4) | 14 mm rigid stand-in for each soft isolator, which are not yet sourced: sets the deck at its design height and gives the rigid-deck test condition. |
+
+Checks run on v05.3: valid single solids, watertight single-shell STL, 3MF volume equal to STL, CAD clearance to the motor, adapter and wheel (cradle), rim and nearby holes (new baseplate openings). Physical fit is confirmed only where `docs/build_log` says so. Assembly diagrams for the build are in `docs/assembly/`. `chassis_v05/package/` keeps the original v05 baseplate release for the record.
+
 ## Contents
 
 | Path | What it is |
 | --- | --- |
-| `print_files/STEP`, `print_files/STL` | Every printed part (00 to 15), in print orientation, millimetres |
+| `print_files/STEP`, `print_files/STL` | Every printed part, current revision (00 to 16), in print orientation, millimetres |
 | `Vibration_Aware_AMR_v05_2_Concept.step` | Full robot assembly (121 parts) |
 | `chassis_v05/` | Baseplate generator and the released baseplate (STEP, STL, 3MF) |
 | `robot_v05/` | Robot assembly and print-part generators (cadquery 2.x, trimesh) |
