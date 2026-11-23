@@ -4,7 +4,7 @@ Drawn from the CAD for the build. Positions are design positions; anything marke
 
 | File | What it shows |
 | --- | --- |
-| Baseplate_v05_3.png | Baseplate v05.3 top view: what goes where, the new IMU slots and motor-wire holes, hole cross-section, what changed |
+| Baseplate_v05_4.png | Baseplate v05.4 top view: what goes where, the new IMU slots and motor-wire holes, hole cross-section, what changed |
 | Wheel_Motor_Position.png | Where the motors and wheels go (shaft end forward, can backward) |
 | Cradle_v05_3.png | Motor cradle v05.3: section through the clamp, and the printed parts |
 | Cradle_v05_3_Assembly.png | Cradle, motor and cap to the baseplate, exploded |

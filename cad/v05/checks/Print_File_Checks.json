@@ -8,12 +8,14 @@
     "baseplate_M3": 3.6,
     "baseplate_M4": 4.8,
     "other_parts_M3": 3.4,
-    "other_parts_M4": 4.5
+    "other_parts_M4": 4.5,
+    "baseplate_motor_slots": "outer rows 3.6, inner rows 4.8"
   },
   "superseded": [
     "01 v05 baseplate",
     "04 v05 deck",
-    "10-13 v05.2 cradles and caps"
+    "10-13 v05.2 cradles and caps",
+    "01 v05.3 baseplate (outer motor slots too wide for M3)"
   ],
   "parts": [
     {
@@ -31,7 +33,7 @@
       "threemf_volume_cm3": 6.59
     },
     {
-      "part": "01_Baseplate_v05_3_Single_Piece",
+      "part": "01_Baseplate_v05_4_Single_Piece",
       "quantity": 1,
       "status": "ready",
       "print_size_mm": [
@@ -39,10 +41,10 @@
         240.0,
         12.0
       ],
-      "volume_cm3": 317.72,
+      "volume_cm3": 319.58,
       "stl_watertight": true,
       "stl_components": 1,
-      "threemf_volume_cm3": 317.72
+      "threemf_volume_cm3": 319.58
     },
     {
       "part": "02_Bridge_Column_88mm",

@@ -1,4 +1,4 @@
-# AMR v05 series: single-piece baseplate robot (current design, revision v05.3)
+# AMR v05 series: single-piece baseplate robot (current design, revisions v05.3 and v05.4)
 
 This is the design being built in November 2026. It replaces the v04 concept and the v03 split chassis, which are kept in this repository for the design history.
 
@@ -11,6 +11,7 @@ This is the design being built in November 2026. It replaces the v04 concept and
 | Part | What changed, and why |
 | --- | --- |
 | 01 baseplate v05.3 | The first print had undersize and skinned-over holes, and three holes did not print. Holes enlarged (M3 3.6, M4 4.8, motor slots 4.8 mm), 0.6 mm chamfer under every hole against first-layer squash, two GY-521 slots at the rear left (the original spot sat over the caster block), two 12 x 20 mm motor-wire holes at (-74, +/-96). Same positions, so every other part fits. Generator: `chassis_v05/build_baseplate_v053.py`. |
+| 01 baseplate v05.4 (23 Nov) | As v05.3, but the outer two motor-slot rows each side (cradle M3 screws) are 3.6 mm wide: at 4.8 mm the M3 screw and washer did not seat. Inner rows (M4 risers and columns) stay 4.8 mm. Generator: `chassis_v05/build_baseplate_v054.py`. |
 | 10 to 13 cradles and caps v05.3 | The v05.2 cradle cracked on the first fit: about 0.25 mm clearance per side and a 2 mm outer wall joined along the layer lines. v05.3 clamps the gearbox between roof and cap (0.3 mm squeeze), with short 3 mm lips and 0.5 mm side clearance. Generator: `robot_v05/build_cradle_v053.py`. |
 | 04 deck v05.3 | Rear riser holes 6.0 mm round, front riser holes 6.0 mm slots with 4 mm front-back travel (the front risers sit in motor slots), bigger M3 holes, bottom chamfer. Generator: `robot_v05/build_deck_v053.py`. |
 | 16 rigid deck spacer (new, x4) | 14 mm rigid stand-in for each soft isolator, which are not yet sourced: sets the deck at its design height and gives the rigid-deck test condition. |

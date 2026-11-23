@@ -1,6 +1,6 @@
 ﻿Part,Quantity,X mm,Y mm,Z mm,Status,Depends on,Notes
 00_Insert_Fit_Coupon,1,44.0,16.0,10.0,Ready,Nothing,Print first. Two M3 bores (4.0 mm) and two M4 bores (5.2 mm). Practise setting inserts here.
-01_Baseplate_v05_3_Single_Piece,1,240.0,240.0,12.0,Ready,Nothing,"v05.3 (20 Nov). Same layout as v05. M3 holes 3.6, M4 4.8, motor slots 4.8; 0.6 mm bottom chamfer on every hole; two GY-521 slots at the rear left; two 12 x 20 mm motor-wire holes at (-74, +/-96). Flat, no supports. Check layer 1 in the slicer preview: every hole open."
+01_Baseplate_v05_4_Single_Piece,1,240.0,240.0,12.0,Ready,Nothing,"v05.4 (23 Nov). Same layout as v05. M3 holes 3.6, M4 4.8; motor slots: outer two rows each side 3.6 mm (cradle M3 screws), inner two rows 4.8 mm (M4 risers and columns); 0.6 mm bottom chamfer on every hole; two GY-521 slots at the rear left; two 12 x 20 mm motor-wire holes at (-74, +/-96). Flat, no supports. Check layer 1 in the slicer preview."
 02_Bridge_Column_88mm,4,12.0,12.0,88.0,Ready,Nothing,Print upright with a brim. M4 insert in each end.
 03_Payload_Riser_56mm,4,14.0,14.0,56.0,Ready,Isolator height (assumed 14 mm),Print upright with a brim. M4 insert in each end. Reprint taller if the isolators are shorter than 14 mm.
 04_Isolated_Payload_Deck_v05_3,1,152.0,180.0,4.0,Ready,Isolators or the 16 spacers,"v05.3 (23 Nov). Flat. Rear riser holes 6.0 mm round, front riser holes 6.0 mm slots with 4 mm front-back travel; M3 tray holes 3.6; payload IMU holes 3.4; 0.5 mm bottom chamfer. Back = end with the bigger cut corners. M4 washer under every head."
