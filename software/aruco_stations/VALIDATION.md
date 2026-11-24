@@ -24,3 +24,9 @@ Tested away from the robot, on a Linux machine. No Raspberry Pi, camera, marker 
 - Distances on the real camera are approximate until the field of view is checked or the camera is calibrated.
 - No motor commands are sent, so driving, stopping distance and docking accuracy on the real robot are untested.
 - No obstacle avoidance. No map. Not safety-rated.
+
+## Update, 24 November 2026: first run on the Raspberry Pi 5
+
+- `rpicam-hello --list-cameras` lists the AI Camera (IMX500).
+- `python3 run_stations.py --picamera --seconds 60 --save-frames` ran on the Pi 5 at 1014 x 760 for 45 s without errors. No marker was in view, so it stayed in SEARCH and ended FAILED when the search timed out, as designed.
+- Still not established: detection, distance and bearing against a printed marker on the real camera; anything on the moving robot.

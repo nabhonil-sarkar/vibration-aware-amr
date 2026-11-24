@@ -48,3 +48,9 @@ The original bench logs remain unchanged in the project evidence folder.
 These examples have not been installed on the Pi or pushed to GitHub.
 
 Note, 17 November 2026: the 28 October wiring PDF checked above was drawn for different motors and driver. It is not in this repository; the current diagram is in `docs/wiring`.
+
+## Update, 24 November 2026: live capture on the Raspberry Pi 5
+
+- `lidar_example.py --live` on the Pi 5 (Raspberry Pi OS Trixie, `rplidar-roboticia` 0.9.5 in a venv with system packages): device model 24, firmware 1.29, hardware 7, health Good.
+- 15 s run: 96 complete scans in 13.5 s (about 7.0 per second), about 145 returns per scan, farthest 7.3 m in a cluttered lab. Files in `sample_results/real_lidar_live_2026-11-24`.
+- Still not established: live SLAM, mapping accuracy, the angle offset to the robot's front.

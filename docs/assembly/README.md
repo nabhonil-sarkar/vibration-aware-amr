@@ -1,4 +1,4 @@
-# Assembly diagrams (v05.3, 23 Nov 2026)
+# Assembly diagrams (v05.3, updated 24 Nov 2026)
 
 Drawn from the CAD for the build. Positions are design positions; anything marked "check" still needs a check on the real part.
 
@@ -19,5 +19,9 @@ Drawn from the CAD for the build. Positions are design positions; anything marke
 | Motor_Test_Pin_Diagram.png | Nucleo, TB6612 and motor pins for the bench test |
 | Breadboard_Motor_Test_v3.png | The same test on the breadboard, module chip side up, VM in column 32 |
 | Direct_Wiring_Motor_Test.png | The same test without a breadboard (joined 3V3 and GND wires) |
+| LiDAR_Position.png | Where the LiDAR and camera sit on the sensor bridge, top and side views |
+| LiDAR_Mounting.png | LiDAR on the bridge plate: footprint, column screws, cable slot, screws from below |
+| LiDAR_Cables.png | Which LiDAR cable goes through the slot (only the USB cable to the Pi) |
+| Camera_Position.png | Camera on the front tab of the bridge plate, lens forward, ribbon down to the Pi |
 
 Rule for the whole robot: a washer under every screw head or nut that touches a printed part.

@@ -1,0 +1,7 @@
+{
+  "source": "/dev/serial/by-id/usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0001-if00-port0",
+  "scans": 96,
+  "raw_samples": 13889,
+  "retained_angular_bins": 13879,
+  "error": null
+}
